@@ -38,12 +38,12 @@ function Navbar() {
         },
     ]
   return (
-    <div className="flex justify-between items-center w-full h-20 text-[#f1f0ec] bg-black px-4 fixed">
+    <div className="flex justify-between items-center w-full h-20 bg-gray-100 text-gray-600 px-4 fixed">
         <div className="flex">
-                <h1 className="text-[#f1f0ec] items-center text-4xl font-bold ml-2 hidden md:flex">Deaf Church Online</h1>
+                <h1 className=" items-center text-4xl font-bold ml-2 hidden md:flex">Deaf Church Online</h1>
             </div>
             <div className="md:hidden mr-10">
-                <h1 className="text-[#f1f0ec] text-4xl font-bold flex md:hidden">Deaf Church</h1>
+                <h1 className="text-4xl font-bold flex md:hidden">Deaf Church</h1>
             </div>
 
             <ul className="hidden lg:flex">
